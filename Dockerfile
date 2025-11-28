@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
 # Install system deps for pip and FastAPI
-RUN apt-get update && apt-get install -y gcc
+RUN apt-get update 
 
 # Install Python dependencies
 COPY requirements.txt .
