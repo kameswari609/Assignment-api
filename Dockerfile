@@ -1,5 +1,6 @@
 # Use slim base image
-FROM python:3.10-slim
+FROM python:3.10-slim-bullseye
+
 
 # Set environment vars (best practices)
 ENV PYTHONDONTWRITEBYTECODE=1
